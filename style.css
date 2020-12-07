@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* Seu código css aqui */
+body {
+  background: #0f0f0f;
+}
+
+.conteudo {
+  width: 860px;
+  margin: 0 auto;
+}
+
+.horizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.info {
+  background: #181818;
+}
+
+.info .info-canal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.info .info-canal .info-logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  margin-right: 0 24px 0 0;
+}
+
+.info .info-canal h2 {
+  font: 24px "Roboto", sans-serif;
+  color: #fff;
+  margin: 0 8px 0 0;
+}
+
+.info .info-canal .ícone {
+  height: 18px;
+  width: 18px;
+}
+
+.info .info-canal span {
+  display: block;
+  margin-top: 8px;
+  font: 14px "Roboto", sans-serif;
+  color: #aaa;
+}
+
+.info .info-canal .botao-membro {
+  color: #3ea6ff;
+  border: 1px solid #3ea6ff;
+  border-radius: 2px;
+  font: 14px "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin-right: 0 16px 0 0;
+  padding: 8px 16px;
+}
+
+.info .info-canal .botao-inscrever {
+  color: #fff;
+  border-radius: 2px;
+  background: #c00;
+  font: 14px "Roboto", sans-serif;
+  text-transform: uppercase;
+  padding: 8px 16px;
+<<<<<<< HEAD
+=======
+}
+
+.canal .ícone {
+  height: 18px;
+  width: 18px;
+  margin-left: 8px;
+>>>>>>> aae83e6fe504d0f027714ea30ec6dd1a0cfcad1a
+}
+
+nav {
+  padding: 24px 0 16px 0;
+}
+
+nav a {
+  color: #fff;
+  font: 14px "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin: 0 24px 0 0;
+}
+
+.principal {
+  margin: 40px 0 0 0;
+}
+
+.principal .info-video {
+  margin: 0 0 0 24px;
+}
+
+.principal .info-video h3 {
+  display: block;
+  font: 14px "Roboto", sans-serif;
+  color: #fff;
+  margin: 0 0 16px 0;
+}
+
+.principal .info-video span {
+  display: block;
+  font: 13px "Roboto", sans-serif;
+  color: #fff;
+  margin: 0 0 16px 0;
+}
+
+.principal .info-video p {
+  display: block;
+  font: 14/24px "Roboto", sans-serif;
+  color: #fff;
+  margin: 0 0 16px 0;
+}
+
+.principal .info-video a {
+  display: inline-block;
+  font: 13px "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.principal .info-video a:hover {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
